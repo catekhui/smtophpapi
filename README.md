@@ -1,4 +1,4 @@
-#SMSTo PHP File
+# SMSTo PHP File
 This is a PHP class that eases the sending of sms with  SMSto API, always refer to the SMSto API documentation in case you encounter any problems, and always report issues. Having said that, this repo will be kept up to date so you don't have to worry much about outdated files.
 
 ##How to send SMS with this file
