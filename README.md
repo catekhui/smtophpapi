@@ -3,6 +3,7 @@ This is a PHP class that eases the sending of sms with  SMSto API, always refer 
 
 ##How to send SMS with this file
 ```
+<?PHP
 $sms = new Wpccb_sms(array(
 	"country_code" => "+1",
 	"phone" => "+1(123)123-1234",
@@ -16,8 +17,8 @@ $send = $sms->send();
 print_r($send);
 ```
 ## Things to note
-- The ** sender ID ** can be your company name, kindly keep it super short, a long sender ID will lead to sms failing, always print the ** sms send ** object to see the outcome.
-- For the users in Canada, USA or Puerto Rico, you will use a custom Sender ID provided by SMSto Support after submitting the TFN document.If you are the metioned countries, make sure you contanct the sms to support before you start sending the SMSs to configure your account. You can contact them by sending an email to support@sms.to or by creating a new support ticket at [https://support.sms.to/support/home](https://support.sms.to/support/home).
+- The **sender ID** can be your company name, kindly keep it super short, a long sender ID will lead to sms failing, always print the **sms send** object to see the outcome.
+- For the users in Canada, USA or Puerto Rico, you will use a custom Sender ID provided by SMSto Support after submitting the TFN document. If you arein  the metioned countries, make sure you contact the sms to support you before you start sending the SMS to configure your account. You can contact them by sending an email to support@sms.to or by creating a new support ticket at [https://support.sms.to/support/home](https://support.sms.to/support/home).
 - Make sure the country code contains plus sign plus country code
 
 ## Send function return type
