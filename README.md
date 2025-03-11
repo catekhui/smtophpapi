@@ -44,6 +44,28 @@ $sms = new Wpccb_sms(array(
 $send = $sms->send();
 print_r($send); // Returns a JSON response
 ```
+Following is example of responses gotten from this class. Please always make sure you print the response method on the browser for a detailed responses. 
+
+### **Successful Response**
+
+
+```json
+{
+  "message": "Message is queued for sending! Please check report for update",
+  "success": true,
+  "message_id": "473590-1741446-80d0-6ff4-xxxxxxx"
+}
+```
+
+### **Failure Response**
+
+```json
+{
+  "success": false,
+  "message": "Invalid API Key or Token",
+  "data": []
+}
+```
 
 ## Registration
 To start sending SMS, create an account with SMSto using the link below:
