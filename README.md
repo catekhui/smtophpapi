@@ -32,9 +32,9 @@ This repository will be kept up to date, so you don’t have to worry about outd
 ## **How to Send SMS Using This Class**
 
 ```php
-//some countries are not allowed to use custom sender ID
-// if you are in a country where TFN number is required, that the one will be used as a sender ID
-// contact support at support@sms.to to get a TFN number, if it's a requirement in your country
+// Some countries are not allowed to use a custom sender ID.  
+// If you are in a country where a TFN number is required, that's the number you will use as the sender ID.  
+// Contact support at support@sms.to to get a TFN number if it's required in your country. It's easy and straight forward
 $sms = new Wpccb_sms(array(
     "country_code" => "+1",
     "phone" => "+1(604)123-1234",
