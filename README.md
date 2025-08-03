@@ -13,6 +13,7 @@ This repository will be kept up to date, so you don’t have to worry about outd
 - Automatic phone number formatting and validation
 - Error handling for required parameters
 - Callback URL support for message status updates
+- Supports messages formating to SMS friendly format
 
 ## Installation
 1. Clone this repository:
