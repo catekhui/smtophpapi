@@ -37,7 +37,7 @@ This repository will be kept up to date, so you don’t have to worry about outd
 // Contact support at support@sms.to to get a TFN number if it's required in your country. It's easy and straight forward
 $sms = new Wpccb_sms(array(
     "country_code" => "+1",
-    "phone" => "+1(604)123-1234",
+    "phone" => "+1(604)123-1234", // or 6041231234 or 0712345678
     "message" => "This is a test message",
     "sender_id" => "YOUR COMPANY NAME",//keep it super short
     "api_key" => '',
